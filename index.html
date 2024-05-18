@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV Magdalena Bernat</title>
+    <title>Portfolio Magdalena Bernat</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/aboutme.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
     <link rel="stylesheet" href="css/scrollbar.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,17 +20,30 @@
     <header>
       <nav id="nav">
         <li>
-          <img src="./src/images/logo.png" alt="logo" id="logo" />
-          <p>Magdalena Bernat</p>
-          <p>fullstack developer</p>
+          <img src="./src/images/logo/logo_final.png" alt="logo" id="logo" />
         </li>
         <!-- <img src="./src/images/zdjęcie CV.png" id="nav-photo" /> -->
-        <li>About me</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <li>
+          <button>About me</button>
+          <button>Portfolio</button>
+          <button>Contact</button>
+        </li>
       </nav>
+      <div id="baner">
+        <p></p>
+        <p></p>
+      </div>
     </header>
     <main>
+      <section class="summary-container">
+        <article id="summary">
+          <p>About me</p>
+          <p>I'm</p>
+        </article>
+        <div id="summary-photo">
+          <img src="./src/images/graphics/girl.jpg" width="550"/>
+        </div>
+      </section>
       <section class="summary-container">
         <div id="summary-photo">
           <img src="src/images/computer.png" />
@@ -38,22 +54,22 @@
         </article>
       </section>
       <section class="summary-container">
-        <div id="summary-photo">
-          <img />
-        </div>
         <article id="summary">
           <p>About me</p>
           <p>I'm</p>
         </article>
+        <div id="summary-photo">
+          <img />
+        </div>
       </section>
       <section class="summary-container">
+        <div id="summary-photo">
+          <img />
+        </div>
         <article id="summary">
           <p>About me</p>
           <p>I'm</p>
         </article>
-        <div id="summary-photo">
-          <img />
-        </div>
       </section>
     </main>
     <footer></footer>

@@ -1,0 +1,35 @@
+#nav {
+    margin: 0 auto;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    background-image: url("../src/images/background_image/baner4.png");
+}
+
+#logo {
+    width: 250px;
+    height: 250px;
+}
+
+#nav-photo {
+    width: 200px;
+    margin-top: -65px;
+    margin-left: 100px;
+}
+
+#baner {
+    height: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../src/images/baner_full.png");
+    background-image: url("../src/images/background_image/baner4.png"); */
+    background-size: cov; 
+    background-repeat: n
+    o-repeat;
+    margin-bottom: 50px;
+}
