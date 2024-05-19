@@ -12,6 +12,7 @@
     margin: 0 auto;
     box-sizing: border-box;
     font-family: var(--main-font);
+    color: var(--text-color);
 }
 
 body {

@@ -16,4 +16,5 @@
 ::-webkit-scrollbar-thumb:hover {
     cursor: pointer;
     background: linear-gradient( #5F3524, #946C66, #D4A28F, #D9AC94,#D7B6A4);
+    transition:  0.25s;
 }
