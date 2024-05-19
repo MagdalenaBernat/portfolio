@@ -2,6 +2,7 @@
   --brand-color: #EEE4E1;
   --background-color: #EEE4E1;
   --accent-color: #944e63;
+  --accent-color: #946C66;
   --text-color: #000000;
   --main-font: 'Montserrat', sans-serif;
   --accent-font: 'Cormorant Garamond', serif;
@@ -21,8 +22,8 @@ body {
 }
 
 .container {
-    margin: 0 auto;
     margin-bottom: 100px;
+    margin-top: 100px;
     height: 400px;
     display: flex;
     justify-content: center;
