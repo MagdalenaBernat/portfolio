@@ -6,17 +6,15 @@
 ::-webkit-scrollbar-track {
 background: #EEE4E1;
 border-radius: 100vw;
-margin-block: 0.3em;
+margin-block: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #b4a6a1;
-    border: 0.2em solid #b4a6a1;
-    border-radius: 100vw;
+    background: linear-gradient(  #D7B6A4,#D9AC94, #D4A28F,  #946C66, #5F3524);
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     cursor: pointer;
-    background: #716865;
-    border: 0.2em solid #716865; 
+    background: linear-gradient( #5F3524, #946C66, #D4A28F, #D9AC94,#D7B6A4);
 }

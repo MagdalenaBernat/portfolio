@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/aboutme.css" />
     <link rel="stylesheet" href="css/portfolio.css" />
     <link rel="stylesheet" href="css/scrollbar.css" />
+    <link rel="stylesheet" href="css/buttons.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,29 +24,28 @@
         <li>
           <img src="./src/images/logo/logo_final.png" alt="logo" id="logo" />
         </li>
-        <!-- <img src="./src/images/zdjęcie CV.png" id="nav-photo" /> -->
         <li>
-          <button>About me</button>
-          <button>Portfolio</button>
-          <button>Contact</button>
+          <button type="button" class="button">Home</button>
+          <button type="button" class="button">About me</button>
+          <button type="button" class="button">My experience</button>
+          <button type="button" class="button">Portfolio</button>
+          <button type="button" class="button">Contact</button>
         </li>
       </nav>
-      <div id="baner">
-        <p></p>
-        <p></p>
-      </div>
     </header>
     <main>
-      <section class="summary-container">
+      <section class="container">
         <article id="summary">
           <p>About me</p>
           <p>I'm</p>
+          <button type="button" class="button">Download CV</button>
+          <button type="button" class="button">Hire me</button>
         </article>
         <div id="summary-photo">
-          <img src="./src/images/graphics/girl.jpg" width="550"/>
+          <img src="./src/images/graphics/girl.jpg" width="550" />
         </div>
       </section>
-      <section class="summary-container">
+      <section class="container">
         <div id="summary-photo">
           <img src="src/images/computer.png" />
         </div>
@@ -53,7 +54,7 @@
           <p></p>
         </article>
       </section>
-      <section class="summary-container">
+      <section class="container">
         <article id="summary">
           <p>About me</p>
           <p>I'm</p>
@@ -62,7 +63,7 @@
           <img />
         </div>
       </section>
-      <section class="summary-container">
+      <section class="container">
         <div id="summary-photo">
           <img />
         </div>
@@ -72,6 +73,13 @@
         </article>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="footer">
+        <img src="/src/images/logo/logo.png" id="logo-footer" />
+        <p class="footer-info">
+          Copyright &copy; 2024 Created by Magdalena Bernat. All rights reserved
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

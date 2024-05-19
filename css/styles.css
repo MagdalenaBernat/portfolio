@@ -1,13 +1,30 @@
+:root {
+  --brand-color: #EEE4E1;
+  --background-color: #EEE4E1;
+  --accent-color: #944e63;
+  --text-color: #000000;
+  --main-font: 'Montserrat', sans-serif;
+  --accent-font: 'Cormorant Garamond', serif;
+}
+
 * {
-    font-family: Montserrat, monospace;
-    box-sizing: border-box;
     margin: 0 auto;
+    box-sizing: border-box;
+    font-family: var(--main-font);
 }
 
 body {
-    background-color:#D6BCB4;
+    /* background-color:#D6BCB4;
     background-color: #e2d0ca;
-    background-color: #f2eae8;
-    background-color: #EEE4E1;
-    accent-color: #944e63;
+    background-color: #f2eae8; */
+    background-color: var(--background-color);
+}
+
+.container {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
