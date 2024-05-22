@@ -22,7 +22,7 @@
     font-weight: 700;
     color: #ffffff;
     transition-duration: 1000ms;
-    transform: rotate(6deg);
+    /* transform: rotate(3deg); */
 }
 
 #nav-buttons {
