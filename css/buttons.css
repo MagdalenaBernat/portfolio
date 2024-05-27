@@ -26,11 +26,11 @@
 }
 
 #go-up-btn {
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     position: fixed;
-    right: 25px;
-    bottom: 25px;
+    right: 10px;
+    bottom: 10px;
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -38,3 +38,20 @@
     padding: 0;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+    #go-up-btn {
+        width: 40px;
+        height: 40px;
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #go-up-btn {
+        width: 45px;
+        height: 45px;
+        right: 20px;
+        bottom: 20px;
+    }
+}
