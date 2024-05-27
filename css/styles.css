@@ -41,6 +41,6 @@ main {
     align-items: center;
     max-width: 80vw;
     margin: 15vw auto;
-    /* background-color: green; */
+    background-color: green;
     flex-direction: column;
 }

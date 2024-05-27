@@ -1,5 +1,6 @@
 .aboutme-content {
     margin: 0 auto;
+    margin-left: 0;
     padding: 1.5vw;
     /* width: 700px; */
     max-width: 80vw;
@@ -17,7 +18,7 @@
     margin: 0 auto;
     padding: 1.5vw;
     width: 90vw;
-    margin-left: -1vw;
+    margin-left: -5vw;
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
 }
 

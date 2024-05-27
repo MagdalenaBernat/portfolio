@@ -1,8 +1,9 @@
 #nav {
     margin: 0 auto;
-    height: 200px;
+    height: 100px;
+    width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     list-style-type: none;
     background-image: url("../src/images/background_image/baner4_small.png");
@@ -11,12 +12,123 @@
 }
 
 #logo {
-    width: 250px;
-    height: 250px;
-    margin-left: 130px;
-    margin-right: 400px;
+    width: 130px;
+    height: 130px;
+    margin-left: 10vw;
+    margin-right: 15vw;
 }
 
 #nav-buttons {
-    
+    display: flex;
+}
+
+.nav-button {
+    width: 55px;
+    height: 55px;
+    padding: 0;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background-color: var(--accent-color);
+    background-color: #946c66;
+    color: var(--text-color);
+    border: 0;
+    font-size: 12px;
+    font-weight: 600;
+    transition-duration: 1000ms;
+    margin-right: 1vw;
+}
+
+.nav-button:hover{
+    cursor: pointer;
+    padding: 0;
+    /* background-color: var(--baner-color5); */
+    background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
+    font-weight: 700;
+    color: #ffffff;
+    transition-duration: 1000ms;
+    /* transform: rotate(3deg); */
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #nav {
+        margin: 0 auto;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        background-image: url("../src/images/background_image/baner4_small.png");
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+
+    #logo {
+        width: 180px;
+        height: 180px;
+        margin-left: 12vw;
+    }
+
+    #nav-buttons {
+        display: flex;
+    }
+    .nav-button {
+        width: 85px;
+        height: 85px;
+        padding: 0;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        background-color: var(--accent-color);
+        background-color: #946c66;
+        color: var(--text-color);
+        border: 0;
+        font-size: 12px;
+        font-weight: 600;
+        transition-duration: 1000ms;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #nav {
+        margin: 0 auto;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        list-style-type: none;
+        background-image: url("../src/images/background_image/baner4_small.png");
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+    #logo {
+        width: 250px;
+        height: 250px;
+        /* margin-left: 130px;
+        margin-right: 400px; */
+        margin-left: 15vw;
+        margin-right: 20vw;
+
+    }
+    #nav-buttons {
+        display: flex;
+        width: 30vw;
+    }
+
+    .nav-button {
+        width: 110px;
+        height: 110px;
+        padding: 0;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        background-color: var(--accent-color);
+        background-color: #946c66;
+        color: var(--text-color);
+        border: 0;
+        font-size: 18px;
+        font-weight: 600;
+        margin-right: 10px;
+        transition-duration: 1000ms;
+    }
 }
