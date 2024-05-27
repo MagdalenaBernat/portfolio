@@ -36,10 +36,11 @@ main {
 }
 
 .container {
-    margin-bottom: 100px;
-    margin-top: 100px;
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 80vw;
+    margin: 15vw auto;
+    /* background-color: green; */
+    flex-direction: column;
 }
