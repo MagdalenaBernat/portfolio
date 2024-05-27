@@ -1,0 +1,31 @@
+@mixin retina2x {
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        @content;
+    }
+}
+
+@mixin retina3x {
+    @media screen and (-webkit-min-device-pixel-ratio: 3),
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
+        @content;
+    }
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    background-image: url(img/bild.png); //uzupełnić adres do obrazka
+
+    @include retina2x {
+        background-image: url(img/bild@2x.png);
+        background-size: 200px 100px
+    }
+
+    @include retina3x {
+        background-image: url(img/bild@3x.png);
+        background-size: 200px 100px
+    }
+}

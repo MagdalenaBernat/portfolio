@@ -31,18 +31,16 @@
           <img src="./src/images/logo/logo_final.png" alt="logo" id="logo" />
         </li>
         <li id="nav-buttons">
-          <!-- <li><a href="/">Home</a></li>
-          <li><a href="#aboutme">About me</a></li> -->
-          <button type="button" class="button">Home</button>
-          <button type="button" class="button">About me</button>
-          <!-- <button type="button" class="button">My experience</button> -->
-          <button type="button" class="button">Portfolio</button>
-          <button type="button" class="button">Contact</button>
+          <a href="/"><button type="button" class="button">Home</button></a>
+          <a href="#aboutme"><button type="button" class="button">About me</button></a>
+          <a href="#portfolio"><button type="button" class="button">Portfolio</button></a>
+          <a href="#contact"><button type="button" class="button">Contact</button></a>
         </li>
       </nav>
     </header>
     <main>
-      <section class="container" id="aboutme">
+
+      <section class="container" id="home">
         <article class="aboutme-content">
             <div>
               <!-- <h3> &lt; Programming passion type="infinite" &gt;</Programming></h3> -->
@@ -82,56 +80,141 @@
         </div>
       </section>
 
+
+
+
+      <section class="container" id="aboutme">
+        <article class="aboutme-content">
+          <p>Hi! I'm Magdalena and I'm fullstack developer. Programming is my passion, when faced with a choice of watching a film or reading a book, I choose to write code or read documentation or read about fields of IT I'm interrested in</p>
+        </article>
+        <div id="aboutme-photo">
+            <img
+              src="./src/images/graphics/girl.jpg"
+              alt="girl software engineer, looks familiar to site's author"
+              width="550"
+            />
+          </div>
+      </section>
+
+
+      <article class="aboutme-content">
+        <p>About me</p>
+        <p>Hi! I'm Magda and I'm fullstack developer. I have a childlike joy of learning and discovering new things. 
+        The ability to think analytically allows me to break down problems into smaller tasks and find step-by-step solutions </p>
+      </article>
+
+      <article class="aboutme-content">
+        <h3>Tech knowledge:</h3>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </article>
+
+      <article class="aboutme-content">
+        <h3>Soft skills:</h3>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </article>
+
+      <article class="aboutme-content">
+        <h3>Interests:</h3>
+        <p>design patterns</p>
+        <p>algorythms</p>
+        <p>AI development and it's impact on social life</p>
+        <p></p>
+      </article>
+
+
       <div class="container">
         <button type="button" class="button">Download CV</button>
         <button type="button" class="button">Hire me</button>
       </div>
 
-      <article id="aboutme">
-        <p>About me</p>
-        <p>Hi! I'm Magda and I'm fullstack developer. I have a childlike joy of learning and discovering new things. 
-        The ability to think analytically allows me to break down problems into smaller tasks and find step-by-step solutions </p>
-      </article>
-      <article id="aboutme">
-        <p>About me</p>
-        <p>I'm</p>
-      </article>
 
-      <section class="container">
-        <div id="myexperience-photo">
+
+
+
+        <div class="">
           <img
             src="src/images/icons/computer.png"
             alt="computer illustration"
             width="350px"
           />
         </div>
-        <article id="myexperience">
-          <p>My experience</p>
-          <p></p>
-        </article>
-      </section>
 
       <section class="container">
         <article id="aboutme">
-          <p>Portfolio</p>
-          <p>I'm</p>
+          <p>Podcast</p>
+          <p>I ran podcast about literature and adaptations. Listen what it's about :) I'm going to restart recording, but my priority was to learn programming, that's why I had a break</p>
+          <a></a>
+        </article>
+        <article id="aboutme">
+          <p>Scientific article about architecture</p>
+          <p>I've written a scientific article which has been published in an international scientific journal. Check this out!</p>
+          <a>https://journals.iaepan.pl/jue/article/view/2976</a>
+          <p>directly to pdf article:</p><a>https://journals.iaepan.pl/jue/article/view/2976/3001</a>
         </article>
         <div id="summary-photo">
           <img />
         </div>
       </section>
 
-      <section class="container">
-        <div id="summary-photo">
-          <img />
-        </div>
-        <article id="aboutme">
+
+      <div id="portfolio">
+        <section class="container">
+          <article id="portfolio">
+            <p>Portfolio</p>
+            <p>In this landing page I decided to use HTML, CSS and JavaScript because of better performance and too little needs to use framework. Responsive design based on mobile-first approach</p>
+            <a>Website link</a>
+            <a>Link to code</a>
+          </article>
+          <div id="summary-photo">
+            <img />
+          </div>
+        </section>
+
+        <section class="container">
+          <article id="portfolio">
+            <p>Portfolio</p>
+            <p>This is my web application</p>
+            <a></a>
+          </article>
+          <div id="summary-photo">
+            <img />
+          </div>
+        </section>
+
+        <section class="container">
+          <article id="portfolio">
+            <p>Portfolio</p>
+            <p>I was Team Leader in development of this application. I'm proud of our teamwork, mutual support and that we managed to finish project on time :) </p>
+            <a></a>
+          </article>
+          <div id="summary-photo">
+            <img />
+          </div>
+        </section>
+      <button type="button" class="button">Contact me</button>
+
+      </div>
+
+      <section class="container" id="contact">
           <p>Contact</p>
-          <p>I'm</p>
-        </article>
+          <p>LinkedIn</p>
+          <p>email</p>
+          <p>github</p>
       </section>
-    </main>
+      <a href="#nav">
+        <button type="button" class="button" id="go-up-btn">&#8743;</button>
 
+      </a>
+    </main>
+        <!-- <svg type="button" class="button" id="go-up-btn">
+          <use href="/src/images/sprite/symbol-defs.svg#arrow-up"></use>
+        </svg> -->
     <footer>
       <div id="footer">
         <!-- <img src="/src/images/logo/logo.png" id="logo-footer" /> -->

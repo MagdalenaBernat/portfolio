@@ -25,7 +25,13 @@
     /* transform: rotate(3deg); */
 }
 
-#nav-buttons {
-
+#go-up-btn {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    margin: 0;
+    padding: 0;
 }
 
