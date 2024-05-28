@@ -1,5 +1,10 @@
 #aboutme {
     margin-top: 15vh;
+    display: none;
+}
+
+#aboutme.active {
+    display: block;
 }
 
 .aboutme-content {
@@ -52,7 +57,7 @@
 
 @media (min-width: 1200px) {
     #aboutme {
-        margin-top: 25vh;
+        margin-top: 30vh;
     }
     .aboutme-content {
         font-size: 18px;
