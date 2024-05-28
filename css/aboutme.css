@@ -1,3 +1,7 @@
+#aboutme {
+    margin-top: 15vh;
+}
+
 .aboutme-content {
     margin: 0 auto;
     margin-left: 0;
@@ -17,8 +21,7 @@
 #aboutme-photo {
     margin: 0 auto;
     padding: 1.5vw;
-    width: 90vw;
-    margin-left: -5vw;
+    width: 80vw;
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
 }
 
@@ -63,6 +66,9 @@
 
 
 @media (min-width: 768px) and (max-width: 1199px) {
+    #aboutme {
+        margin-top: 20vh;
+    }
     .aboutme-content {
         font-size: 18px;
         width: 80vw;
@@ -75,13 +81,17 @@
 }
 
 @media (min-width: 1200px) {
+    #aboutme {
+        margin-top: 25vh;
+    }
     .aboutme-content {
         font-size: 18px;
         width: 50vw;
+        margin-top: 7vh;
     }
     #aboutme-photo {
         width: 40vw;
         margin-left: -30px;
-        margin-top: -60px;
+        margin-top: -25px;
     }
 }
