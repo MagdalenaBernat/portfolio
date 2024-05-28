@@ -1,11 +1,12 @@
-header {
+.nav-container {
     position: fixed;
     z-index: 1000;
     top: -1px;
     margin: 0;
+    width: 100%;
 }
 
-#nav {
+.nav {
     margin: 0 auto;
     height: 115px;
     width: 100%;
@@ -19,8 +20,8 @@ header {
 }
 
 #logo {
-    width: 130px;
-    height: 115px;
+
+    height: 100%;
     margin-left: 10vw;
     margin-right: 15vw;
 }
@@ -57,7 +58,7 @@ header {
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-    #nav {
+    .nav {
         margin: 0 auto;
         height: 150px;
         width: 100%;
@@ -71,8 +72,7 @@ header {
     }
 
     #logo {
-        width: 180px;
-        height: 150px;
+    height: 100%;
         margin-left: 12vw;
     }
 
@@ -88,7 +88,8 @@ header {
 }
 
 @media (min-width: 1200px) {
-    #nav {
+
+    .nav {
         margin: 0 auto;
         height: 220px;
         display: flex;
@@ -101,8 +102,7 @@ header {
         background-repeat: no-repeat;
     }
     #logo {
-        width: 250px;
-        height: 220px;
+    height: 100%;
         /* margin-left: 130px;
         margin-right: 400px; */
         margin-left: 15vw;
