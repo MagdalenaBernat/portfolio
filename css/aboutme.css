@@ -6,11 +6,8 @@
     margin: 0 auto;
     margin-left: 0;
     padding: 1.5vw;
-    /* width: 700px; */
     max-width: 80vw;
-
     background-color: #dec9c3;
-    /* background-color: #e7d3c8; */
     border-radius: 4px;
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
     font-size: 14px;
@@ -25,31 +22,9 @@
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
 }
 
-#aboutme-buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 220px;
-    /* height: 40px; */
-    padding: 20px;
-    /* background-color: var(--content-backgroundcolor); */
-    border-radius: 30px;
-    filter: drop-shadow(0 0 1.4rem var(--shadow-color));
-}
-
 .aboutme-display {
     width: 20px;
     height: 20px;
-}
-
-.aboutme-button {
-    width: 20px;
-    height: 20px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    border-radius: 50%;
-    background-color: var(--accent-color);
-    border: 1px solid var(--accent-color);
-    /* transition-duration: 400ms; */
 }
 
 .aboutme-button:hover{
@@ -87,11 +62,11 @@
     .aboutme-content {
         font-size: 18px;
         width: 50vw;
-        margin-top: 7vh;
+        margin-top: 4vh;
     }
     #aboutme-photo {
         width: 40vw;
         margin-left: -30px;
-        margin-top: -25px;
+        margin-top: -7vh;
     }
 }

@@ -26,3 +26,5 @@ window.addEventListener('scroll', () => {
         ? navbar.classList.add('small')
         : navbar.classList.remove('small')
 });
+
+
