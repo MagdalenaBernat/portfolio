@@ -35,6 +35,15 @@ main {
     display: block;
 }
 
+p {
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
 .container {
     display: flex;
     justify-content: center;

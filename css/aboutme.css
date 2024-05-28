@@ -12,6 +12,7 @@
     margin-left: 0;
     padding: 1.5vw;
     max-width: 80vw;
+    min-height: 430px;
     background-color: #dec9c3;
     border-radius: 4px;
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
@@ -63,7 +64,6 @@
         font-size: 18px;
         width: 50vw;
         margin-top: 4vh;
-        min-height: 425px;
     }
     #aboutme-photo {
         width: 40vw;
