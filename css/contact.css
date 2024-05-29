@@ -7,10 +7,11 @@
 .contact {
     display: block;
     margin: 10px;
+    margin-left: 30px;
     font-weight: 700;
     font-size: 18px;
 }
 
-.email {
+.contact-value {
     font-weight: 500;
 }

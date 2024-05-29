@@ -6,7 +6,7 @@ const navbar = document.querySelector(navbarSelector);
 function menuOnScroll(selector) {
     const styles = `
     ${selector} {
-        transition: height 0.6s ease-in-out
+        transition: 0.6s ease-in-out
     }
 
     ${selector}.small {

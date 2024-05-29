@@ -1,9 +1,13 @@
 #aboutme {
     margin-top: 15vh;
+}
+
+.aboutme {
+    margin-top: 15vh;
     display: none;
 }
 
-#aboutme.active {
+.aboutme.active {
     display: block;
 }
 
@@ -13,7 +17,7 @@
     padding: 1.5vw;
     min-width: 405px;
     max-width: 80vw;
-    min-height: 430px;
+    min-height: 440px;
     background-color: #dec9c3;
     border-radius: 4px;
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
@@ -42,12 +46,17 @@
     margin-top: 2vh;
 }
 
+/* interests */
 .interests {
     font-weight: 700;
 }
 
+.interests-content {
+    margin: 0;
+}
+
 .interests-link {
-    display: block;
+    display:block;
     background-color: var(--accent-color);
     height: 25px;
     width: 290px;
@@ -58,9 +67,23 @@
     font-size: 16px;
     font-weight: 500;
 }
+/* end interests*/
+
+/* tech-skills */
+.tech-skills {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.tech-skills p {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+/* end tech-skills */
+
 
 @media (min-width: 768px) and (max-width: 1199px) {
-    #aboutme {
+    .aboutme {
         margin-top: 20vh;
     }
     .aboutme-content {
@@ -74,8 +97,9 @@
 }
 
 @media (min-width: 1200px) {
-    #aboutme {
-        margin-top: 30vh;
+    .aboutme {
+        margin-top: 22vh;
+        padding-top: 2vh;
     }
     .aboutme-content {
         font-size: 18px;

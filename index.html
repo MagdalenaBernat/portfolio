@@ -8,6 +8,7 @@
       description="portfolio girl software engineer"
     />
     <title>Portfolio Magdalena Bernat</title>
+    <link rel="shortcut icon" href="./favicon.png" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/aboutme.css" />
@@ -34,15 +35,16 @@
       <nav class="nav">
         <img src="./src/images/logo/logo_final.png" alt="logo" id="logo" />
         <li id="nav-buttons">
-          <a href="#home"><button type="button" class="nav-button active">Home</button></a>
-          <a href="#home"><button type="button" class="nav-button">About me</button></a>
+          <a href="/"><button type="button" class="nav-button active">Home</button></a>
+          <a href="#aboutme"><button type="button" class="nav-button">About me</button></a>
           <a href="#portfolio"><button type="button" class="nav-button">Portfolio</button></a>
           <a href="#contact"><button type="button" class="nav-button">Contact</button></a>
         </li>
       </nav>
     </header>
     <main>
-      <section class="container" id="aboutme" data-toggle-group="first-content">
+      <div id="aboutme">
+      <section class="container aboutme" data-toggle-group="first-content">
         <div class="container">
           <img
             src="./src/images/graphics/girl.jpg"
@@ -65,11 +67,7 @@
         </div>
       </section>
 
-      <section
-        class="container"
-        id="aboutme"
-        data-toggle-group="second-content"
-      >
+      <section class="container aboutme" data-toggle-group="second-content">
         <div class="container">
           <img
             src="./src/images/graphics/girl_on_a_construction_site.png"
@@ -94,7 +92,7 @@
         </div>
       </section>
 
-      <section class="container" id="aboutme" data-toggle-group="third-content">
+      <section class="container aboutme" data-toggle-group="third-content">
         <div class="container">
           <img
             src="./src/images/graphics/tech_skills_1.png"
@@ -104,18 +102,19 @@
           />
           <div class="aboutme-content">
             <h3>&lt; Tech skills &gt;</h3>
-            <p>JavaScript, ReactJS, Redux</p>
-            <p>HTML5, CSS3, SaaS</p>
-            <p>NodeJS, Webpack, TypeScript in progress</p>
-            <p>Metody: Agile, Scrum</p>
-            <p>Jira, Confluence</p>
+            <div class="tech-skills">
+              <p><b>JavaScript, ReactJS, Redux</b></p>
+              <p><b>HTML5, CSS3, SaaS</b></p>
+              <p>NodeJS, Webpack, TypeScript in progress</p>
+              <p><b>Metody</b> Agile, Scrum</p>
+              <p>Jira, Confluence</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section
-        class="container"
-        id="aboutme"
+        class="container aboutme"
         data-toggle-group="fourth-content"
       >
         <div class="container">
@@ -127,23 +126,24 @@
           />
           <div class="aboutme-content">
             <h3>&lt; Interests & achievements &gt;</h3>
-            <p><span class="interests">IT </span> I'm interested in literally everything, but I am currently particularly curious about design patterns and
-              AI development</p>
-            <p><span class="interests">Podcast </span> I ran podcast about literature and adaptations - ways to adapt, 
-              based on scientific theories, and reviewed the result of the work.
+            <p class><span class="interests">IT </span> I'm currently particularly curious about design patterns and AI development</p>
+            <p class="interests-content"><span class="interests">Podcast </span> I ran podcast about literature and adaptations - 
+              I review a book and film, I talk about ways of adapting and about adaptations' scientific theories.
               <!-- I'm going to restart recording, but I want to make some conceptual changes; -->
+              
             </p>
             <a href="https://open.spotify.com/show/5nK5TIi9En4lGj6WEWIuQL?si=e2f6201b768f43ea" class="interests-link">Link to podcast</a>
-            <p><span class="interests">Scientific article about architecture </span> I've written an article 
+            <p class="interests-content"><span class="interests">Scientific article about architecture </span> I've written an article 
               which has been published in an international scientific journal.
-            </p>
+
+            </p>              
             <a href="https://journals.iaepan.pl/jue/article/view/2976/3001" class="interests-link">Direct link to my article in .pdf</a>
             <a href="https://journals.iaepan.pl/jue/article/view/2976" class="interests-link">Link to the entire volume</a>
           </div>
         </div>
       </section>
 
-      <section class="container" id="aboutme" data-toggle-group="fifth-content">
+      <section class="container aboutme" data-toggle-group="fifth-content">
         <div class="container">
         <img
           src="./src/images/graphics/girl7.jpg"
@@ -223,6 +223,7 @@
           <label for="slider-5"></label>
         </form>
       </div>
+      </div>
       <section class="container" id="cv">
         <!-- <img
           src="src/images/icons/arrow.png"
@@ -236,6 +237,7 @@
           <a href="#contact" class="cv">
             <button type="button" class="button">Contact</button>
           </a>
+          <!-- <img src="./src/images/icons/computer.png" alt="computer graphic" class="computer_graphic"> -->
       </section>
 
       <section class="container" id="portfolio">
@@ -247,6 +249,7 @@
             our teamwork, mutual support and that we managed to finish project
             on time :)
           </p>
+          <p>[ Technologies: JavaScript, HTML, CSS, SaaS ]</p>
           <a href="https://magdalenabernat.github.io/movie-library-project/">Website link</a>
           <a href="https://github.com/MagdalenaBernat/movie-library-project.git">Link to code</a>
           <a></a>
@@ -260,8 +263,9 @@
           <p>
             In this landing page I decided to use HTML, CSS and JavaScript
             because of better performance and too little need to use the framework.
-            Responsive design based on mobile-first approach.
           </p>
+          <p>Responsive design based on mobile-first approach.</p>
+          <p>[ Technologies: JavaScript, HTML, CSS ]</p>
           <a href="https://magdalenabernat.github.io/portfolio">Website link</a>
           <a href="https://github.com/MagdalenaBernat/portfolio.git">Link to code</a>
         </article>
@@ -270,21 +274,27 @@
         </div>
 
         <article class="portfolio-content">
-          <p>Portfolio</p>
-          <p>This is my web application</p>
-          <a></a>
+          <h4><i>In a nutshell</i> - my original application</h4>
+          <p>This is my web application which enables you to learn effectively! 
+            You can create your own flashcards, add images to them 
+            and even draw your own sketches! You can also track your learning progress!</p>
+          <p>I am the author of the concept, the design, the code, the way this application works.</p>
+          <p>[ Technologies: ReactJS, JavaScript, HTML, CSS, JSON Server ]</p>
+          <a href="">Website link</a>
         </article>
         <div id="summary-photo">
           <img />
         </div>
       </section>
-
       <section class="container" id="contact">
         <div>
-          <h3>Contact me</h3>
-          <a href="https://www.linkedin.com/in/magdalena-bernat-34a85172/" class="contact">LinkedIn</a>
-          <p class="contact">Email: <span class="email">magdalena.bernat.dev@gmail.com</span></p>
-          <a href="https://github.com/MagdalenaBernat" class="contact">GitHub</a>
+          <h3>let contactMe = [</h3>
+          <div>
+            <a href="https://www.linkedin.com/in/magdalena-bernat-34a85172/" class="contact">{ linkedIn : <span class="contact-value"> link </span> },</a>
+            <p class="contact">{ email : <span class="contact-value"> " magdalena.bernat.dev@gmail.com " </span>},</p>
+            <a href="https://github.com/MagdalenaBernat" class="contact"> { gitHub : <span class="contact-value"> link </span> }</a>
+          <h3>]</h3>
+          </div>
         </div>
       </section>
       <a href="/">
