@@ -1,0 +1,16 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    display: block;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.email {
+    font-weight: 500;
+}
