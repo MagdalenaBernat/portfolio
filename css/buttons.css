@@ -14,7 +14,8 @@
     transition-duration: 1000ms;
 }
 
-.button:hover{
+.button:hover,
+.nav-button.active {
     cursor: pointer;
     padding: 0;
     /* background-color: var(--baner-color5); */
@@ -49,9 +50,9 @@
 
 @media (min-width: 1200px) {
     #go-up-btn {
-        width: 45px;
-        height: 45px;
-        right: 20px;
-        bottom: 20px;
+        width: 50px;
+        height: 50px;
+        right: 22px;
+        bottom: 22px;
     }
 }
