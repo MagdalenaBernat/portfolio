@@ -1,21 +1,3 @@
-:root {
-  --brand-color: #EEE4E1;
-  --background-color: #EEE4E1;
-  --content-backgroundcolor: #dec9c3;
-  --hover-color: #944e63;
-  --accent-color: #946C66;
-  --text-color: #000000;
-  --main-font: 'Montserrat', sans-serif;
-  --accent-font: 'Cormorant Garamond', serif;
-  --baner-color1: #D7B6A4;
-  --baner-color2: #D9AC94;
-  --baner-color3: #D4A28F;
-  --baner-color4: #946C66;
-  --baner-color5: #816463;
-  --baner-color6: #5F3524;
-  --shadow-color: rgb(131, 104, 100);
-}
-
 * {
     margin: 0 auto;
     box-sizing: border-box;

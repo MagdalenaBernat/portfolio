@@ -1,8 +1,9 @@
 [type="radio"]:checked,
-[type="radio"]:not(:checked){
+[type="radio"]:not(:checked) {
   position: absolute;
   left: -9999px;
 }
+
 .checkbox:checked + label,
 .checkbox:not(:checked) + label{
   position: relative;
@@ -20,23 +21,27 @@
   box-sizing: border-box;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-image: url('../src/images/graphics/girl.jpg');
+  background-image: url('/src/images/graphics/girl.jpg');
   animation: border-transform 6s linear infinite alternate forwards;
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .checkbox.second + label{
-  background-image: url('../src/images/graphics/girl_on_a_construction_site.png');
+  background-image: url('/src/images/graphics/girl_on_a_construction_site.png');
 }
+
 .checkbox.third + label{
-  background-image: url('../src/images/graphics/tech_skills_1.png');
+  background-image: url('/src/images/graphics/tech_skills_1.png');
 }
+
 .checkbox.forth + label{
-  background-image: url('../src/images/graphics/city.png');
+  background-image: url('/src/images/graphics/city.png');
 }
+
 .checkbox.fifth + label{
-  background-image: url('../src/images/graphics/girl7.jpg');
+  background-image: url('/src/images/graphics/girl7.jpg');
 }
 
 .checkbox:checked + label{

@@ -9,17 +9,20 @@
     />
     <title>Portfolio Magdalena Bernat</title>
     <link rel="shortcut icon" href="./favicon.png" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/aboutme.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
-    <link rel="stylesheet" href="css/myexperience.css" />
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/scrollbar.css" />
-    <link rel="stylesheet" href="css/buttons.css" />
-    <link rel="stylesheet" href="css/slider.css" />
-    <link rel="stylesheet" href="css/cv.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/variables/variables.css" />
+    <link rel="stylesheet" href="./src/css/utils/buttons.css" />
+    <link rel="stylesheet" href="./src/css/utils/scrollbar.css" />
+    <link rel="stylesheet" href="./src/css/utils/slider.css" />
+    <link rel="stylesheet" href="./src/css/sections/header/nav.css" />
+    <link rel="stylesheet" href="./src/css/sections/aboutme/about_me.css" />
+    <link rel="stylesheet" href="./src/css/sections/aboutme/my_experience.css" />
+    <link rel="stylesheet" href="./src/css/sections/aboutme/tech_skills.css" />
+    <link rel="stylesheet" href="./src/css/sections/aboutme/interests.css" />
+    <link rel="stylesheet" href="./src/css/sections/aboutme/cv.css" />
+    <link rel="stylesheet" href="./src/css/sections/portfolio/portfolio.css" />
+    <link rel="stylesheet" href="./src/css/sections/footer/contact.css" />
+    <link rel="stylesheet" href="./src/css/sections/footer/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -81,12 +84,12 @@
               which also translates into my skills in managing a team, 
               solving technical and interpersonal problems and providing a great atmosphere while maintaining 
               a high quality of services provided;</p>
-            <p>I am great at keeping a cool head in stressful situations - can maintain laser-like focus and calm thinking </p>
+            <p>I am great at keeping a cool head in stressful situations - can maintain laser-like focus and calm thinking;</p>
             <p>
               Everyone says my passion for programming is contagious and one IT
               specialist said that he would probably go in programming direction
               if even one lecturer at university talked about programming in
-              such a way.
+              such a way;
             </p>
           </div>
         </div>
@@ -126,16 +129,14 @@
           />
           <div class="aboutme-content">
             <h3>&lt; Interests & achievements &gt;</h3>
-            <p class><span class="interests">IT </span> I'm currently particularly curious about design patterns and AI development</p>
+            <p class><span class="interests">IT </span> I'm currently particularly curious about design patterns and AI development;</p>
             <p class="interests-content"><span class="interests">Podcast </span> I ran podcast about literature and adaptations - 
-              I review a book and film, I talk about ways of adapting and about adaptations' scientific theories.
+              I review a book and film, I talk about ways of adapting and about adaptations' scientific theories;
               <!-- I'm going to restart recording, but I want to make some conceptual changes; -->
-              
             </p>
             <a href="https://open.spotify.com/show/5nK5TIi9En4lGj6WEWIuQL?si=e2f6201b768f43ea" class="interests-link">Link to podcast</a>
             <p class="interests-content"><span class="interests">Scientific article about architecture </span> I've written an article 
-              which has been published in an international scientific journal.
-
+              which has been published in an international scientific journal;
             </p>              
             <a href="https://journals.iaepan.pl/jue/article/view/2976/3001" class="interests-link">Direct link to my article in .pdf</a>
             <a href="https://journals.iaepan.pl/jue/article/view/2976" class="interests-link">Link to the entire volume</a>
@@ -250,9 +251,8 @@
             on time :)
           </p>
           <p>[ Technologies: JavaScript, HTML, CSS, SaaS ]</p>
-          <a href="https://magdalenabernat.github.io/movie-library-project/">Website link</a>
-          <a href="https://github.com/MagdalenaBernat/movie-library-project.git">Link to code</a>
-          <a></a>
+          <a href="https://magdalenabernat.github.io/movie-library-project/" target="_blank" rel="noopener noreferrer"><button type="button" class="button">Live Demo</button></a>
+          <a href="https://github.com/MagdalenaBernat/movie-library-project.git" target="_blank" rel="noopener noreferrer"><button type="button" class="button">Code</button></a>
         </article>
         <div id="summary-photo">
           <img />
@@ -266,8 +266,8 @@
           </p>
           <p>Responsive design based on mobile-first approach.</p>
           <p>[ Technologies: JavaScript, HTML, CSS ]</p>
-          <a href="https://magdalenabernat.github.io/portfolio">Website link</a>
-          <a href="https://github.com/MagdalenaBernat/portfolio.git">Link to code</a>
+          <a href="https://magdalenabernat.github.io/portfolio" target="_blank" rel="noopener noreferrer"><button type="button" class="button">Live Demo</button></a>
+          <a href="https://github.com/MagdalenaBernat/portfolio.git" target="_blank" rel="noopener noreferrer"><button type="button" class="button">Code</button></a>
         </article>
         <div id="summary-photo">
           <img />
@@ -280,7 +280,7 @@
             and even draw your own sketches! You can also track your learning progress!</p>
           <p>I am the author of the concept, the design, the code, the way this application works.</p>
           <p>[ Technologies: ReactJS, JavaScript, HTML, CSS, JSON Server ]</p>
-          <a href="">Website link</a>
+          <a href="" target="_blank" rel="noopener noreferrer"><button type="button" class="button">Live Demo</button></a>
         </article>
         <div id="summary-photo">
           <img />
@@ -290,9 +290,9 @@
         <div>
           <h3>let contactMe = [</h3>
           <div>
-            <a href="https://www.linkedin.com/in/magdalena-bernat-34a85172/" class="contact">{ linkedIn : <span class="contact-value"> link </span> },</a>
+            <a href="https://www.linkedin.com/in/magdalena-bernat-34a85172/" target="_blank" rel="noopener noreferrer" class="contact">{ linkedIn : <span class="contact-value"> link </span> },</a>
             <p class="contact">{ email : <span class="contact-value"> " magdalena.bernat.dev@gmail.com " </span>},</p>
-            <a href="https://github.com/MagdalenaBernat" class="contact"> { gitHub : <span class="contact-value"> link </span> }</a>
+            <a href="https://github.com/MagdalenaBernat" target="_blank" rel="noopener noreferrer" class="contact"> { gitHub : <span class="contact-value"> link </span> }</a>
           <h3>]</h3>
           </div>
         </div>

@@ -14,13 +14,12 @@
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    background-image: url("../src/images/background_image/baner4_small.png");
+    background-image: url("/src/images/background_image/baner4_small.png");
     background-size: cover; 
     background-repeat: no-repeat;
 }
 
 #logo {
-
     height: 100%;
     margin-left: 10vw;
     margin-right: 15vw;
@@ -49,36 +48,21 @@
 .nav-button:hover{
     cursor: pointer;
     padding: 0;
-    /* background-color: var(--baner-color5); */
     background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
     font-weight: 700;
     color: #ffffff;
     transition-duration: 1000ms;
-    /* transform: rotate(3deg); */
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
 
     .nav {
-        margin: 0 auto;
         height: 150px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        list-style-type: none;
-        background-image: url("../src/images/background_image/baner4_small.png");
-        background-size: cover; 
-        background-repeat: no-repeat;
     }
 
     #logo {
         height: 100%;
         margin-left: 12vw;
-    }
-
-    #nav-buttons {
-        display: flex;
     }
     
     .nav-button {
@@ -91,16 +75,7 @@
 @media (min-width: 1200px) {
 
     .nav {
-        margin: 0 auto;
         height: 200px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        list-style-type: none;
-        background-image: url("../src/images/background_image/baner4_small.png");
-        background-size: cover; 
-        background-repeat: no-repeat;
     }
 
     #logo {
@@ -110,7 +85,6 @@
     }
 
     #nav-buttons {
-        display: flex;
         width: 30vw;
     }
 
