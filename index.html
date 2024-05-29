@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/scrollbar.css" />
     <link rel="stylesheet" href="css/buttons.css" />
     <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/cv.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,8 +33,8 @@
       <nav class="nav">
         <img src="./src/images/logo/logo_final.png" alt="logo" id="logo" />
         <li id="nav-buttons">
-          <a href="/CV/index.html"><button type="button" class="nav-button">Home</button></a>
-          <a href="/CV/index.html"><button type="button" class="nav-button">About me</button></a>
+          <a href="#home"><button type="button" class="nav-button">Home</button></a>
+          <a href=""><button type="button" class="nav-button">About me</button></a>
           <a href="#portfolio"><button type="button" class="nav-button">Portfolio</button></a>
           <a href="#contact"><button type="button" class="nav-button">Contact</button></a>
         </li>
@@ -52,7 +53,7 @@
             <!-- <h3> &lt; Programming passion type="infinite" &gt;</Programming></h3> -->
             <h3>&lt; About me &gt;</h3>
             <p>Hi! I'm Magdalena and I'm fullstack developer;</p> 
-            <p>Ever since I can remember, I have loved to improve my skills, which is why I feel so at home in IT, 
+            <p>Ever since I can remember, I have loved to improve my skills, which is why I feel so at home in IT; 
             <p>I enjoy using my creativity and analytical mindset when programming. 
               These skills allows me to break down problems into smaller tasks and find step-by-step solutions;</p>
             <p>Programming has evolved from my curiosity into a passion. 
@@ -221,27 +222,47 @@
           <label for="slider-5"></label>
         </form>
       </div>
-
-      <div class="container">
+      <section class="container" id="cv">
         <!-- <img
           src="src/images/icons/arrow.png"
           alt="arrow illustration"
           width="120px"
         /> -->
-        <button type="button" class="button">Download CV</button>
-        <button type="button" class="button">Hire me</button>
-      </div>
+          <img src="./src/images/icons/mouse.png" alt="mouse graphic" class="mouse_graphic">
+          <a href="" class="cv" download>
+            <button type="button" class="button">Download CV</button>
+          </a>
+          <a href="#contact" class="cv">
+            <button type="button" class="button">Contact</button>
+          </a>
+      </section>
 
       <section class="container" id="portfolio">
         <article class="portfolio-content">
-          <p>Portfolio</p>
+          <h3>Portfolio</h3>
+          <h4>Movie Library - film search engine</h4>
           <p>
-            In this landing page I decided to use HTML, CSS and JavaScript
-            because of better performance and too little needs to use framework.
-            Responsive design based on mobile-first approach
+            I was Team Leader in development of this application. I'm proud of
+            our teamwork, mutual support and that we managed to finish project
+            on time :)
           </p>
           <a href="https://magdalenabernat.github.io/movie-library-project/">Website link</a>
           <a href="https://github.com/MagdalenaBernat/movie-library-project.git">Link to code</a>
+          <a></a>
+        </article>
+        <div id="summary-photo">
+          <img />
+        </div>
+
+        <article class="portfolio-content">
+          <h4>My portfolio landing page</h4>
+          <p>
+            In this landing page I decided to use HTML, CSS and JavaScript
+            because of better performance and too little need to use the framework.
+            Responsive design based on mobile-first approach.
+          </p>
+          <a href="https://magdalenabernat.github.io/portfolio">Website link</a>
+          <a href="https://github.com/MagdalenaBernat/portfolio.git">Link to code</a>
         </article>
         <div id="summary-photo">
           <img />
@@ -255,21 +276,7 @@
         <div id="summary-photo">
           <img />
         </div>
-
-        <article class="portfolio-content">
-          <p>Portfolio</p>
-          <p>
-            I was Team Leader in development of this application. I'm proud of
-            our teamwork, mutual support and that we managed to finish project
-            on time :)
-          </p>
-          <a></a>
-        </article>
-        <div id="summary-photo">
-          <img />
-        </div>
       </section>
-      <button type="button" class="button">Contact me</button>
 
       <section class="container" id="contact">
         <div>
@@ -279,7 +286,7 @@
           <a href="https://github.com/MagdalenaBernat" class="contact">GitHub</a>
         </div>
       </section>
-      <a href="/CV/index.html">
+      <a href="/">
         <button type="button" class="button" id="go-up-btn">&#8743;</button>
       </a>
     </main>

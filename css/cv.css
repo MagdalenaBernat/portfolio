@@ -1,0 +1,15 @@
+#cv {
+    justify-content: start;
+}
+
+.cv {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.mouse_graphic {
+    width: 300px;
+    margin: 0;
+    margin-top: -140px;
+    margin-left: -70px;
+}
