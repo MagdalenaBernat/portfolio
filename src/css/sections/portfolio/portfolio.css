@@ -5,3 +5,22 @@
 .portfolio-content {
 
 }
+
+/* .portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    height: 800px;
+    background-color: var(--background-color);
+    background-image: radial-gradient(
+    circle at center,
+    var(--baner-color6) 0%,
+    var(--background-color) 50%
+    )
+} */
+
+
+.portfolio-container {
+    
+}
