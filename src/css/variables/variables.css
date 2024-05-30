@@ -1,7 +1,7 @@
 :root {
   --brand-color: #EEE4E1;
   --background-color: #EEE4E1;
-  --content-backgroundcolor: #dec9c3;
+  --content-background-color: #dec9c3;
   --hover-color: #944e63;
   --accent-color: #946C66;
   --text-color: #000000;
@@ -14,4 +14,5 @@
   --baner-color5: #816463;
   --baner-color6: #5F3524;
   --shadow-color: rgb(131, 104, 100);
+  --button-color: #946c66;
 }

@@ -18,7 +18,7 @@
     min-width: 405px;
     max-width: 80vw;
     min-height: 440px;
-    background-color: #dec9c3;
+    background-color: var(--content-background-color);
     border-radius: 4px;
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
     font-size: 14px;

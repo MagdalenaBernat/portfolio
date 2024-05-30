@@ -36,7 +36,6 @@
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
     background-color: var(--accent-color);
-    background-color: #946c66;
     color: var(--text-color);
     border: 0;
     font-size: 12px;
