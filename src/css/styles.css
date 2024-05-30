@@ -21,6 +21,18 @@ p {
     margin: 15px 0;
 }
 
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
 h3 {
     font-size: 24px;
     margin-bottom: 20px;
