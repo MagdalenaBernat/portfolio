@@ -17,6 +17,7 @@
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
     font-size: 16px;
     font-weight: 500;
+    letter-spacing: 0.1em;
 }
 
 .interests-buttons {
@@ -24,4 +25,13 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 8px;
+    transition-duration: 1000ms;
+}
+
+.interests-link:hover{
+    cursor: pointer;
+    background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
+    font-weight: 800;
+    color: #ffffff;
+    transition-duration: 1000ms;
 }

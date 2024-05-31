@@ -1,4 +1,5 @@
 #cv {
+    display: flex;
     justify-content: start;
 }
 
@@ -15,11 +16,18 @@
     margin-left: -70px;
 }
 
-.cv-buttons {
+.cv-buttons-container {
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
     width: 30vw;
     margin-right: 0;
+}
+
+.cv-button {
+    width: 130px;
+    height: 130px;
+    font-size: 20px;
+    font-weight: 700;
 }

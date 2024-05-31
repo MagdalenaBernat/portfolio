@@ -4,6 +4,7 @@
     font-family: var(--main-font);
     color: var(--text-color);
     text-decoration: none;
+    letter-spacing: 0.05em;
 }
 
 body {
@@ -19,6 +20,10 @@ main {
 
 p {
     margin: 15px 0;
+}
+
+b {
+    color: var(--baner-color6);
 }
 
 h1 {
