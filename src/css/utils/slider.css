@@ -29,19 +29,19 @@
 }
 
 .checkbox.second + label{
-  background-image: url('./src/images/graphics/girl_on_a_construction_site.png');
+  background-image: url('/src/images/graphics/girl_on_a_construction_site.png');
 }
 
 .checkbox.third + label{
-  background-image: url('../src/images/graphics/tech_skills_1.png');
+  background-image: url('/src/images/graphics/tech_skills_1.png');
 }
 
 .checkbox.forth + label{
-  background-image: url('././src/images/graphics/city.png');
+  background-image: url('/src/images/graphics/city.png');
 }
 
 .checkbox.fifth + label{
-  background-image: url('src/images/graphics/girl7.jpg');
+  background-image: url('/src/images/graphics/girl7.jpg');
 }
 
 .checkbox:checked + label{
