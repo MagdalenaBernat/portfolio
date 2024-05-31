@@ -15,6 +15,7 @@
     margin: 40px;
     grid-auto-flow: dense;
     grid-gap: 10px;
+    filter: drop-shadow(0 0 0.75rem var(--shadow-color));
 }
 
 .portfolio-container .box {
@@ -22,13 +23,17 @@
     padding: 20px;
     display: grid;
     font-size: 18px;
+    font-weight: 600;
     place-items: center;
     text-align: center;
-    transition: 500ms;
+    transition-duration: 1000ms;
 }
 
 .portfolio-container .box:hover {
-    background-color: rgba(148, 108, 102, 0.6);
+    background-color: rgba(148, 108, 102, 0.4);
+    /* background-image: linear-gradient(#D4A28F, #946C66, #5F3524); */
+    /* background-color: rgba(95, 53, 36, 0.7); */
+    transition-duration: 1000ms;
 }
 
 .portfolio-container .box img {

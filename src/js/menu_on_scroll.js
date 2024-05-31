@@ -10,7 +10,7 @@ function menuOnScroll(selector) {
     }
 
     ${selector}.small {
-        height: 130px
+        height: 18vh
     }
     `
 

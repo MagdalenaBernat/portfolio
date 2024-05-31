@@ -11,8 +11,16 @@
   --baner-color2: #D9AC94;
   --baner-color3: #D4A28F;
   --baner-color4: #946C66;
+  --baner-color4-rgba: rgba(148, 108, 102, 0.9);
   --baner-color5: #816463;
   --baner-color6: #5F3524;
   --shadow-color: rgb(131, 104, 100);
   --button-color: #946c66;
+  --mouse-color: #A25F5F; 
+  /* (162,95,95) */
+  --mouse-color1: #A15F5D;
+  --mouse-color2: #AB6F6E; 
+  --mouse-color3: #603938;
+  --mouse-color3-rgba: rgba(96, 57, 56, 0.5);
+  --mouse-color4: #543130;
 }

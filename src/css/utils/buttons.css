@@ -5,11 +5,14 @@
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
     /* background-color: var(--accent-color); */
-    background-color: var(--baner-color4);
+    /* background-color: var(--baner-color4-rgba); */
+    background-image: linear-gradient(#D4A28F, #946C66);
+    /* background-color: var(--mouse-color2); */
     color: var(--text-color);
+    color: var(--baner-color6);
     border: 0;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     margin-right: 10px;
     transition-duration: 1000ms;
 }
@@ -20,7 +23,7 @@
     padding: 0;
     /* background-color: var(--baner-color5); */
     background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
-    font-weight: 700;
+    font-weight: 800;
     color: #ffffff;
     transition-duration: 1000ms;
     /* transform: rotate(3deg); */
