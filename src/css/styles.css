@@ -4,7 +4,7 @@
     font-family: var(--main-font);
     color: var(--text-color);
     text-decoration: none;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
 }
 
 body {
