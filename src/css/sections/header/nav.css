@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    background-image: url("/src/images/background_image/baner4_small.png");
+    background-image: url("../../../images/background_image/baner4_small.png");
     background-size: cover; 
     background-repeat: no-repeat;
 }
