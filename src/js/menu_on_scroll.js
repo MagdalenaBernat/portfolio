@@ -13,7 +13,12 @@ function menuOnScroll(selector) {
         height: 70px; 
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 768px) and (max-width: 1199px){
+        ${selector}.small {
+            height: 100px;
+        }
+    }
+    @media (min-width: 1200px) {
         ${selector}.small {
             height: 120px;
         }
