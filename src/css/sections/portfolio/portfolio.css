@@ -1,5 +1,6 @@
 #portfolio {
     display: block;
+    margin-top: 0;
 }
 
 .portfolio-container {
@@ -26,9 +27,7 @@
 }
 
 .portfolio-container .box:hover {
-    background-color: rgba(148, 108, 102, 0.4);
-    /* background-image: linear-gradient(#D4A28F, #946C66, #5F3524); */
-    /* background-color: rgba(95, 53, 36, 0.7); */
+    background-color: rgba(148, 108, 102, 0.3);
     transition-duration: 1000ms;
 }
 
@@ -125,7 +124,7 @@
     .portfolio-container {
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     }
-
+    
     .portfolio-container .box:nth-child(1) {
         grid-column: span 2;
         grid-row: span 1;

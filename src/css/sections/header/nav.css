@@ -20,7 +20,6 @@
     background-repeat: no-repeat;
 }
 
-
 #logo {
     height: 100%;
     margin-left: 10vw;
@@ -72,7 +71,7 @@
 @media (min-width: 1200px) {
 
     .nav {
-        height: 26vh;
+        height: 23vh;
     }
 
     #logo {

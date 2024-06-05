@@ -8,9 +8,6 @@
 }
 
 body {
-    /* background-color:#D6BCB4;
-    background-color: #e2d0ca;
-    background-color: #f2eae8; */
     background-color: var(--background-color);
 }
 
@@ -29,7 +26,6 @@ b {
 h1 {
     font-size: 32px;
     font-weight: 700;
-    margin-top: 40px;
     margin-bottom: 30px;
     color: var(--baner-color6);
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
@@ -55,7 +51,6 @@ h3 {
     align-self: center;
     max-width: 80vw;
     margin-top: 3vw;
-    /* background-color: green; */
     flex-direction: column;
 }
 
@@ -68,6 +63,6 @@ h3 {
 @media (min-width: 1200px) {
     .container {
         flex-direction: row;
-        max-width: 85vw;
+        max-width: 87vw;
     }
 }

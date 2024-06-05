@@ -1,14 +1,15 @@
 #aboutme {
-    margin-top: 15vh;
+    margin-top: 3vh;
 }
 
 .aboutme {
-    margin-top: 15vh;
+    margin-top: 0;
     display: none;
 }
 
 .aboutme.active {
     display: block;
+    margin-top: 0;
 }
 
 .aboutme-content {
@@ -75,7 +76,7 @@
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .aboutme {
-        margin-top: 20vh;
+        margin-top: 2vh;
     }
     .aboutme-content {
         font-size: 18px;
@@ -87,15 +88,39 @@
     }
 }
 
-@media (min-width: 1200px) {
-    .aboutme {
-        margin-top: 22vh;
-        padding-top: 2vh;
+@media (min-width: 1200px) and (max-width: 1699px) {
+
+    #aboutme {
+        margin-top: 12vh;
     }
+
     .aboutme-content {
         font-size: 18px;
+        min-height: 63vh;
+        min-width: 45vw;
+        padding-bottom: 0;
     }
     #aboutme-photo {
         width: 40vw;
+    }
+}
+
+@media (min-width: 1700px) {
+
+    #aboutme {
+        margin-top: 12vh;
+    }
+
+    .aboutme-content {
+        font-size: 18px;
+        min-height: 63vh;
+        min-width: 45vw;
+    }
+    #aboutme-photo {
+        width: 40vw;
+    }
+    p {
+        font-size: 24px;
+        line-height: 1.5;
     }
 }
