@@ -6,11 +6,17 @@ const navbar = document.querySelector(navbarSelector);
 function menuOnScroll(selector) {
     const styles = `
     ${selector} {
-        transition: 0.6s ease-in-out
+        transition: height 0.8s ease-in-out;
     }
 
     ${selector}.small {
-        height: 18vh
+        height: 70px; 
+    }
+
+    @media (min-width: 768px) {
+        ${selector}.small {
+            height: 120px;
+        }
     }
     `
 
