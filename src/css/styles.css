@@ -7,6 +7,10 @@
     letter-spacing: 0.02em;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background-color);
 }
