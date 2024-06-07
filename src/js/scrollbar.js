@@ -1,10 +1,12 @@
 "use strict";
 
-let progress = document.getElementById('progressbar');
+window.onload = function () {
+    let progress = document.getElementById('progressbar');
 
-let totalHeight = document.body.scrollHeight - window.innerHeight;
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
 
-window.onscroll = function () {
-    let progressHeight = (window.scrollY / totalHeight) * 100;
-    progress.style.height = progressHeight + "%";
-}
+    window.onscroll = function () {
+        let progressHeight = (window.scrollY / totalHeight) * 100;
+        progress.style.width = progressHeight + "%";
+    };
+};
