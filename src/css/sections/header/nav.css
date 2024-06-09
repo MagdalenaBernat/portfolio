@@ -27,32 +27,52 @@
 }
 
 #nav-buttons {
-    display: flex;
+    
+
 }
 
 .nav-button {
-    width: 55px;
-    height: 55px;
-    padding: 0;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    background-color: var(--accent-color);
-    color: var(--text-color);
-    border: 0;
-    font-size: 12px;
-    font-weight: 600;
+
     transition-duration: 1000ms;
-    margin-right: 1vw;
 }
 
 .nav-button:hover{
-    cursor: pointer;
-    padding: 0;
-    background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
-    font-weight: 700;
-    color: #ffffff;
+    background-color: rgba(148, 108, 102, 0.3);
     transition-duration: 1000ms;
 }
+
+
+@media (min-width: 768px) {
+
+    #nav-buttons {
+        display: flex;
+    }
+
+    .nav-button {
+        width: 55px;
+        height: 55px;
+        padding: 0;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        background-color: var(--accent-color);
+        color: var(--text-color);
+        border: 0;
+        font-size: 12px;
+        font-weight: 600;
+        transition-duration: 1000ms;
+        margin-right: 1vw;
+    }
+
+    .nav-button:hover{
+        cursor: pointer;
+        padding: 0;
+        background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
+        font-weight: 700;
+        color: #ffffff;
+        transition-duration: 1000ms;
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 1199px) {
 
