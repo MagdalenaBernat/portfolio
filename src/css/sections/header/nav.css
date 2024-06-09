@@ -105,7 +105,7 @@
 
     .sidebar {
         transition: translate var(--hamburger-animation-timing);
-        translate: 100%;
+        translate: -400%;
         margin-top: 30vh;
         background-color: rgba(148, 108, 102, 0.3);
         width: 100%;

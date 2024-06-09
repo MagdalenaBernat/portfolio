@@ -12,9 +12,6 @@ function menuOnScroll(selector) {
     ${selector}.small {
         height: 70px; 
     }
-    .sidebar {
-           margin-top: 25vh;
-    }
 
     @media (min-width: 768px) and (max-width: 1199px){
         ${selector}.small {
