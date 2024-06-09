@@ -1,3 +1,4 @@
+/* start hamburger menu */
 :root {
     --bar-width: 45px;
     --bar-height: 4px;
@@ -5,7 +6,7 @@
     --foreground: #333;
     --background: white;
     --hamburger-margin: 20px;
-    --hamburger-animation-timing: 250ms ease-in-out;
+    --hamburger-animation-timing: 350ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
@@ -60,13 +61,49 @@
     width: 0;
 }
 
+.sidebar {
+    transition: translate var(--hamburger-animation-timing);
+    translate: 100%;
+    margin-top: 30vh;
+    background-color: rgba(148, 108, 102, 0.3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200vh;
+}
+
+.hamburger-menu:has(input:checked) + .sidebar {
+    translate: 0;
+}
 
 
+.nav-button {
+    height: 30px;
+    margin: 5px;
+    background-color: var(--accent-color);
+    border: 0;
+    width: 150px;
+    color: var(--brand-color);
+    font-weight: 700;
+    transition-duration: 1000ms;
+}
+/* .mobile-menu {
+    height: 30px;
+    margin: 5px;
+    background-color: var(--accent-color);
+    width: 100px;
+
+} */
+/* end hamburger menu */
 
 
-
-
-
+.nav-button:hover{
+    background-color: rgba(148, 108, 102, 0.8);
+    transition-duration: 1000ms;
+    color: var(--text-color);
+}
 
 
 
@@ -108,15 +145,7 @@
 
 }
 
-.nav-button {
 
-    transition-duration: 1000ms;
-}
-
-.nav-button:hover{
-    background-color: rgba(148, 108, 102, 0.3);
-    transition-duration: 1000ms;
-}
 
 
 @media (min-width: 768px) {
