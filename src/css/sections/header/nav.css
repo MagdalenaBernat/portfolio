@@ -10,7 +10,7 @@
 .nav {
     margin: 0 auto;
     height: 115px;
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@
         --foreground: var(--text-color);
         --background: var(--brand-color);
         --hamburger-margin: 20px;
-        --hamburger-animation-timing: 350ms ease-in-out;
+        --hamburger-animation-timing: 450ms ease-in-out;
         --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
     }
 
@@ -139,6 +139,10 @@
 }
 
 @media (min-width: 768px) {
+
+    .hamburger-menu input {
+        appearance: none;
+    }
 
     #nav-buttons {
         display: flex;
