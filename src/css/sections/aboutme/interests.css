@@ -7,9 +7,9 @@
 }
 
 .interests-link {
-    display:block;
+    display: block;
     background-color: var(--accent-color);
-    height: 25px;
+    /* height: 25px; */
     width: 290px;
     text-align: center;
     border-radius: 20px;

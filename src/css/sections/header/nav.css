@@ -107,7 +107,8 @@
         transition: translate var(--hamburger-animation-timing);
         translate: -300vw;
         margin-top: 30vh;
-        background-color: rgba(148, 108, 102, 0.3);
+        /* background-color: rgba(148, 108, 102, 0.3); */
+        background-color: var(--baner-color4);
         width: 100%;
         display: flex;
         justify-content: center;
@@ -123,18 +124,19 @@
     .nav-button {
         height: 30px;
         margin: 5px;
-        background-color: var(--accent-color);
+        background-color: var(--content-background-color);
         border: 0;
         width: 150px;
-        color: var(--brand-color);
+        color: var(--baner-color6);
         font-weight: 700;
         transition-duration: 1000ms;
     }
 
-    .nav-button:hover{
-        background-color: rgba(148, 108, 102, 0.8);
+    .nav-button:hover, 
+      .nav-button:active {
+        background-color: rgba(96, 57, 56, 0.5);
         transition-duration: 1000ms;
-        color: var(--text-color);
+        color: var(--brand-color);
     }
 }
 
@@ -163,7 +165,16 @@
         margin-right: 1vw;
     }
 
-    .nav-button:hover{
+    .nav-button:hover {
+        cursor: pointer;
+        padding: 0;
+        background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
+        font-weight: 700;
+        color: #ffffff;
+        transition-duration: 1000ms;
+    }
+
+    .nav-button:active {
         cursor: pointer;
         padding: 0;
         background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
@@ -210,4 +221,5 @@
         font-size: 18px;
         margin-right: 10px;
     }
+
 }

@@ -38,238 +38,223 @@
   <body>
     <div id="progressbar"></div>
     <header class="nav-container" id="home">
-      <nav class="nav">
+      <nav class="nav" id="nav">
         <img src="src/images/logo/M (10)2.png" alt="logo" id="logo" />
 
         <label class="hamburger-menu">
           <input type="checkbox"/>
         </label>
         <aside class="sidebar" id="nav-buttons">
-          <a href="./CV Magdalena Bernat.pdf" target="_blank"><button type="button" class="nav-button">CV</a>
+          <a href="./CV Magdalena Bernat.pdf" target="_blank"><button type="button" class="nav-button active">CV</button></a>
           <a href="#aboutme"><button type="button" class="nav-button">About me</button></a>
           <a href="#portfolio"><button type="button" class="nav-button">Portfolio</button></a>
           <a href="#contact"><button type="button" class="nav-button">Contact</button></a>
         </aside>
-
-<!-- 
-        <li id="nav-buttons">
-          <a href="./CV Magdalena Bernat.pdf" target="_blank"><button type="button" class="nav-button mobile-nav">CV</button></a>
-          <a href="#aboutme"><button type="button" class="nav-button mobile-nav">About me</button></a>
-          <a href="#portfolio"><button type="button" class="nav-button mobile-nav">Portfolio</button></a>
-          <a href="#contact"><button type="button" class="nav-button mobile-nav">Contact</button></a>
-        </li> -->
       </nav>
     </header>
-
     
     <main>
       <div id="aboutme">
-      </div>
-      <section class="container aboutme" data-toggle-group="first-content">
-        <div class="container">
-          <img
-            src="./src/images/graphics/girl.jpg"
-            alt="girl software engineer, looks familiar to site's author"
-            id="aboutme-photo"
-            class="first-photo"
-          />
-          <div class="aboutme-content">
-            <!-- <h3> &lt; Programming passion type="infinite" &gt;</Programming></h3> -->
-            <h3>&lt; About me &gt;</h3>
-            <p>Hi! I'm <b>Magdalena Bernat</b> and I'm  a <b>fullstack React + NodeJS developer</b>;</p> 
-            <p>Ever since I can remember, I have loved to <b>improve my skills</b>, which is why <b>I feel so at home in IT</b>; 
-            <p>I enjoy using <b>my creativity and analytical mindset</b> while programming. 
-              These skills allow me to <b>break down problems into smaller tasks and find step-by-step solutions</b>;</p>
-            <p>Programming has evolved <b>from my curiosity into a passion</b>. 
-              When faced with the choice of watching a film or reading a book, 
-              I choose to write code or read documentation or read about areas of IT that interest me:)
-            </p>
+        <section class="container aboutme" data-toggle-group="first-content">
+          <div class="container">
+            <img
+              src="./src/images/graphics/girl.jpg"
+              alt="girl software engineer, looks familiar to site's author"
+              id="aboutme-photo"
+              class="first-photo"
+            />
+            <div class="aboutme-content">
+              <h3>&lt; About me &gt;</h3>
+              <p>Hi! I'm <b>Magdalena Bernat</b> and I'm  a <b>fullstack React + NodeJS developer</b>;</p> 
+              <p>Ever since I can remember, I have loved to <b>improve my skills</b>, which is why <b>I feel so at home in IT</b>; 
+              <p>I enjoy using <b>my creativity and analytical mindset</b> while programming. 
+                These skills allow me to <b>break down problems into smaller tasks and find step-by-step solutions</b>;</p>
+              <p>Programming has evolved <b>from my curiosity into a passion</b>. 
+                When faced with the choice of watching a film or reading a book, 
+                I choose to write code or read documentation or read about areas of IT that interest me:)
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="container aboutme" data-toggle-group="second-content">
-        <div class="container">
+        <section class="container aboutme" data-toggle-group="second-content">
+          <div class="container">
+            <img
+              src="./src/images/graphics/girl_on_a_construction_site.png"
+              alt="soft skills image"
+              id="aboutme-photo"
+              class="second-photo"
+            />
+            <div class="aboutme-content">
+              <h3>&lt; Working Experience & Soft Skills &gt;</h3>
+              <p>I have <b>8 years</b> of experience <b>in a construction company</b>, 
+                which translates into my <b>skills in managing a team, 
+                solving technical and interpersonal problems and providing a great atmosphere while maintaining 
+                a high quality of services provided</b>;</p>
+              <p>I also <b>negotiated contracts, prepared valuations and had a great deal of contact with investors</b>;</p>
+              <p>I am great at <b>keeping a cool head in stressful situations</b> - can maintain <b>laser-like focus</b> 
+                and <b>calm thinking</b>;</p>
+              <p>
+                <b>Everyone says my passion for programming is contagious</b> and one IT
+                specialist said that he would probably go in programming direction
+                if even one lecturer at university talked about programming in
+                such a way;
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="container aboutme" data-toggle-group="third-content">
+          <div class="container">
+            <img
+              src="./src/images/graphics/tech_skills_1.png"
+              alt="tech skills image"
+              id="aboutme-photo"
+              class="third-photo"
+            />
+            <div class="aboutme-content">
+              <h3>&lt; Tech skills &gt;</h3>
+              <div class="tech-skills">
+                <p><b>JavaScript</b></p>
+                <p><b>ReactJS, Redux</b></p>
+                <p><b>NodeJS</b></p>
+                <p><b>HTML5, CSS3, SaaS</b></p>
+                <!-- <p>NodeJS, Webpack, TypeScript</p> -->
+                <p>Jira, Confluence</p>
+                <p><b>Metody:</b> Agile, Scrum</p>
+              </div>
+              <div class="tech-skills">
+                <h3> &lt; Languages &gt;</h3>
+                <p><b>english</b> - B2+, <b>polish</b> - native, </p>
+                <p><b>german</b> - basic, <b>spanish</b> - basic</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="container aboutme"
+          data-toggle-group="fourth-content"
+        >
+          <div class="container">
+            <img
+              src="./src/images/graphics/city.png"
+              alt="interests, architecture image"
+              id="aboutme-photo"
+              class="fourth-photo"
+            />
+            <div class="aboutme-content">
+              <h3>&lt; Interests &gt;</h3>
+              <p class><span class="interests"><b>IT</b></span> I'm currently particularly curious about <b>design patterns</b> and <b>AI development</b> (and my own skills development ;) ) </p>
+              <p class="interests-content"><span class="interests"><b>Sound engineering & Podcast</b></span> I ran podcast about literature and adaptations - 
+                I review a book and film, I talk about ways of adapting and about adaptations' scientific theories;
+                <!-- I'm going to restart recording, but I want to make some conceptual changes; -->
+              </p>
+              <div class="interests-buttons">
+                <a href="https://open.spotify.com/show/5nK5TIi9En4lGj6WEWIuQL?si=e2f6201b768f43ea" target="_blank" rel="noopener noreferrer" class="interests-link">Link to podcast</a> 
+              </div>
+              <p class="interests-content"><span class="interests"><b>Architecture</b></span> I love the history of architecture, especially the 20th century. 
+                I've written an scientific article about unknown facts od 20th century architecture. The article has been published in an international scientific journal;
+              </p>              
+              <div class="interests-buttons">
+                <a href="https://journals.iaepan.pl/jue/article/view/2976" target="_blank" rel="noopener noreferrer" class="interests-link">Direct link to my article</a>
+                <a href="https://journals.iaepan.pl/jue/issue/view/184" target="_blank" rel="noopener noreferrer" class="interests-link">Link to the entire volume</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="container aboutme" data-toggle-group="fifth-content">
+          <div class="container">
           <img
-            src="./src/images/graphics/girl_on_a_construction_site.png"
-            alt="soft skills image"
+            src="./src/images/graphics/girl7.jpg"
+            alt="girl software engineer"
             id="aboutme-photo"
-            class="second-photo"
+            class="fifth-photo"
           />
           <div class="aboutme-content">
-            <h3>&lt; Working Experience & Soft Skills &gt;</h3>
-            <p>I have <b>8 years</b> of experience <b>in a construction company</b>, 
-              which translates into my <b>skills in managing a team, 
-              solving technical and interpersonal problems and providing a great atmosphere while maintaining 
-              a high quality of services provided</b>;</p>
-            <p>I also <b>negotiated contracts, prepared valuations and had a great deal of contact with investors</b>;</p>
-            <p>I am great at <b>keeping a cool head in stressful situations</b> - can maintain <b>laser-like focus</b> 
-              and <b>calm thinking</b>;</p>
+            <h3>&lt; Programming passion &gt;</h3>
+            <!-- <p>
+              Programming became my passion and competes with my love of reading books :)
+            </p> -->
             <p>
-              <b>Everyone says my passion for programming is contagious</b> and one IT
-              specialist said that he would probably go in programming direction
-              if even one lecturer at university talked about programming in
-              such a way;
+              Someone once told me that
+              <b>reading code is like reading a novel</b>, and there is indeed
+              something in that. I also love writing (as an example you've seen my
+              article on previous slide) so
+              <b>now I'm writing my own coding novels</b> - I create characters
+              that have impact on each other, their paths merge and then separate
+              after the mission is accomplished. Sometimes they await until the
+              other is ready. Novels must have an introduction, a development and
+              an ending - the introduction of the characters at the beginning,
+              then the action and finally the obligatory happy ending without any
+              unresolved conflicts ;)
+            </p>
+            <p>
+              And, of course, the conduct of the story must not be convoluted so
+              that the reader doesn't get lost ;)
             </p>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="container aboutme" data-toggle-group="third-content">
-        <div class="container">
-          <img
-            src="./src/images/graphics/tech_skills_1.png"
-            alt="tech skills image"
-            id="aboutme-photo"
-            class="third-photo"
-          />
-          <div class="aboutme-content">
-            <h3>&lt; Tech skills &gt;</h3>
-            <div class="tech-skills">
-              <p><b>JavaScript</b></p>
-              <p><b>ReactJS, Redux</b></p>
-              <p><b>NodeJS</b></p>
-              <p><b>HTML5, CSS3, SaaS</b></p>
-              <!-- <p>NodeJS, Webpack, TypeScript</p> -->
-              <p>Jira, Confluence</p>
-              <p><b>Metody:</b> Agile, Scrum</p>
-            </div>
-            <div class="tech-skills">
-              <h3> &lt; Languages &gt;</h3>
-              <p><b>english</b> - B2+, <b>polish</b> - native, </p>
-              <p><b>german</b> - basic, <b>spanish</b> - basic</p>
-            </div>
-          </div>
+        <div id="aboutme-buttons-container">
+          <form>
+            <input
+              class="checkbox first"
+              type="radio"
+              name="slider"
+              id="slide-1"
+              data-toggle-value="first-content"
+              checked
+            />
+            <label for="slide-1"></label>
+            <input
+              class="checkbox second"
+              type="radio"
+              name="slider"
+              id="slider-2"
+              data-toggle-value="second-content"
+            />
+            <label for="slider-2"></label>
+            <input
+              class="checkbox third"
+              type="radio"
+              name="slider"
+              id="slider-3"
+              data-toggle-value="third-content"
+            />
+            <label for="slider-3"></label>
+            <input
+              class="checkbox forth"
+              type="radio"
+              name="slider"
+              id="slider-4"
+              data-toggle-value="fourth-content"
+            />
+            <label for="slider-4"></label>
+            <input
+              src="./src/images/graphics/city.png"
+              class="checkbox fifth"
+              type="radio"
+              name="slider"
+              id="slider-5"
+              data-toggle-value="fifth-content"
+            />
+            <label for="slider-5"></label>
+          </form>
         </div>
-      </section>
-
-      <section
-        class="container aboutme"
-        data-toggle-group="fourth-content"
-      >
-        <div class="container">
-          <img
-            src="./src/images/graphics/city.png"
-            alt="interests, architecture image"
-            id="aboutme-photo"
-            class="fourth-photo"
-          />
-          <div class="aboutme-content">
-            <h3>&lt; Interests &gt;</h3>
-            <p class><span class="interests"><b>IT</b></span> I'm currently particularly curious about <b>design patterns</b> and <b>AI development</b> (and my own skills development ;) ) </p>
-            <p class="interests-content"><span class="interests"><b>Sound engineering & Podcast</b></span> I ran podcast about literature and adaptations - 
-              I review a book and film, I talk about ways of adapting and about adaptations' scientific theories;
-              <!-- I'm going to restart recording, but I want to make some conceptual changes; -->
-            </p>
-            <div class="interests-buttons">
-              <a href="https://open.spotify.com/show/5nK5TIi9En4lGj6WEWIuQL?si=e2f6201b768f43ea" target="_blank" rel="noopener noreferrer" class="interests-link">Link to podcast</a> 
-            </div>
-            <p class="interests-content"><span class="interests"><b>Architecture</b></span> I love the history of architecture, especially the 20th century. 
-              I've written an scientific article about unknown facts od 20th century architecture. The article has been published in an international scientific journal;
-            </p>              
-            <div class="interests-buttons">
-              <a href="https://journals.iaepan.pl/jue/article/view/2976" target="_blank" rel="noopener noreferrer" class="interests-link">Direct link to my article</a>
-              <a href="https://journals.iaepan.pl/jue/issue/view/184" target="_blank" rel="noopener noreferrer" class="interests-link">Link to the entire volume</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="container aboutme" data-toggle-group="fifth-content">
-        <div class="container">
-        <img
-          src="./src/images/graphics/girl7.jpg"
-          alt="girl software engineer"
-          id="aboutme-photo"
-          class="fifth-photo"
-        />
-        <div class="aboutme-content">
-          <!-- <h3> &lt; Programming passion type="infinite" &gt;</Programming></h3> -->
-          <h3>&lt; Programming passion &gt;</h3>
-          <!-- <p>
-            Programming became my passion and competes with my love of reading books :)
-          </p> -->
-          <p>
-            Someone once told me that
-            <b>reading code is like reading a novel</b>, and there is indeed
-            something in that. I also love writing (as an example you've seen my
-            article on previous slide) so
-            <b>now I'm writing my own coding novels</b> - I create characters
-            that have impact on each other, their paths merge and then separate
-            after the mission is accomplished. Sometimes they await until the
-            other is ready. Novels must have an introduction, a development and
-            an ending - the introduction of the characters at the beginning,
-            then the action and finally the obligatory happy ending without any
-            unresolved conflicts ;)
-          </p>
-          <p>
-            And, of course, the conduct of the story must not be convoluted so
-            that the reader doesn't get lost ;)
-          </p>
-        </div>
-      </section>
-
-      <div id="aboutme-buttons-container">
-        <form>
-          <input
-            class="checkbox first"
-            type="radio"
-            name="slider"
-            id="slide-1"
-            data-toggle-value="first-content"
-            checked
-          />
-          <label for="slide-1"></label>
-          <input
-            class="checkbox second"
-            type="radio"
-            name="slider"
-            id="slider-2"
-            data-toggle-value="second-content"
-          />
-          <label for="slider-2"></label>
-          <input
-            class="checkbox third"
-            type="radio"
-            name="slider"
-            id="slider-3"
-            data-toggle-value="third-content"
-          />
-          <label for="slider-3"></label>
-          <input
-            class="checkbox forth"
-            type="radio"
-            name="slider"
-            id="slider-4"
-            data-toggle-value="fourth-content"
-          />
-          <label for="slider-4"></label>
-          <input
-            src="./src/images/graphics/city.png"
-            class="checkbox fifth"
-            type="radio"
-            name="slider"
-            id="slider-5"
-            data-toggle-value="fifth-content"
-          />
-          <label for="slider-5"></label>
-        </form>
       </div>
-      </div>
+
       <section class="container" id="cv">
           <img src="./src/images/icons/mouse.png" alt="mouse graphic" class="mouse_graphic">
-          <!-- <div class="cv-buttons-container">
-            <a href="./test.pdf" class="cv" target="_blank"><button type="button" class="button cv-button">Explore my journey</button></a>
-            <a href="#contact" class="cv"><button type="button" class="button cv-button">Contact</button></a> 
-          </div> -->
-
-          <!-- <img src="./src/images/icons/computer.png" alt="computer graphic" class="computer_graphic"> -->
       </section>
+
       <section class="container" id="portfolio">
+
         <div class="container">
           <h1> &lt; PORTFOLIO &gt; </h1>
         </div>
-<!-- Start of the first project -->
+        <!-- Start of the first project -->
         <div class="portfolio-container">
           <div class="box">
             <div class="portfolio-content">
@@ -332,11 +317,11 @@
             </div>
           </div>
         </div>
-<!-- End of the first project -->
-      <div class="container">
-        <img src="./src/images/icons/partition-element.png" alt="partition element" class="partition-element"/>
-      </div>
-<!-- Start of the second project -->
+        <!-- End of the first project -->
+        <div class="container">
+          <img src="./src/images/icons/partition-element.png" alt="partition element" class="partition-element"/>
+        </div>
+        <!-- Start of the second project -->
         <div class="portfolio-container">
           <div class="box">
             <div class="content">
@@ -388,11 +373,11 @@
             </div>
           </div>
         </div>
-<!-- End of the second project -->
+        <!-- End of the second project -->
         <div class="container">
           <img src="./src/images/icons/partition-element.png" alt="partition element" class="partition-element"/>
         </div>
-<!-- Start of the third project -->
+        <!-- Start of the third project -->
         <div class="portfolio-container">
           <div class="box">
             <div class="content">
@@ -441,11 +426,11 @@
             </div>
           </div>
         </div>
-<!-- End of the third project -->
+        <!-- End of the third project -->
         <div class="container">
           <img src="./src/images/icons/partition-element.png" alt="partition element" class="partition-element"/>
         </div>
-<!-- Start of the fourth project -->
+        <!-- Start of the fourth project -->
         <div class="portfolio-container">
           <div class="box">
             <div class="content">
@@ -500,11 +485,11 @@
             </div>
           </div>
         </div>
-<!-- End of the fourth project -->
-      <div class="container">
-        <img src="./src/images/icons/partition-element.png" alt="partition element" class="partition-element"/>
-      </div>
-
+        <!-- End of the fourth project -->
+        <div class="container">
+          <img src="./src/images/icons/partition-element.png" alt="partition element" class="partition-element"/>
+        </div>
+      </section>
 
       <section class="container" id="contact">
         <div>
@@ -516,10 +501,10 @@
               <h3>let contactMe = {</h3>
               <div>
                 <a href="https://www.linkedin.com/in/magdalena-bernat-34a85172/" target="_blank" rel="noopener noreferrer" class="contact">
-                   linkedIn : <span class="contact-value">linkToLinkedIn</span>,</a>
-                <p class="contact"> email : <span class="contact-value"> "magdalena.bernat.dev@gmail.com"</span>,</p>
-                <p class="contact"> mobile : <span class="contact-value"> 48 883 553 688</span>,</p>
-                <a href="https://github.com/MagdalenaBernat" target="_blank" rel="noopener noreferrer" class="contact">  gitHub : <span class="contact-value">linkToGitHub</span>,</a>
+                linkedIn : <span class="contact-value">linkToLinkedIn</span>,</a>
+                <p class="contact">email : <span class="contact-value">"magdalena.bernat.dev@gmail.com"</span>,</p>
+                <p class="contact">mobile : <span class="contact-value">48 883 553 688</span>,</p>
+                <a href="https://github.com/MagdalenaBernat" target="_blank" rel="noopener noreferrer" class="contact"> gitHub : <span class="contact-value">linkToGitHub</span>,</a>
                 <h3>}</h3>
               </div>
             </div>
@@ -527,7 +512,7 @@
           </div>
         </div>
       </section>
-      <a href="">
+      <a href="#aboutme">
         <button type="button" class="button" id="go-up-btn">&#8743;</button>
       </a>
     </main>
