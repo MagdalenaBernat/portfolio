@@ -132,8 +132,7 @@
         transition-duration: 1000ms;
     }
 
-    .nav-button:hover, 
-      .nav-button:active {
+    .nav-button:hover {
         background-color: rgba(96, 57, 56, 0.5);
         transition-duration: 1000ms;
         color: var(--brand-color);
@@ -165,7 +164,8 @@
         margin-right: 1vw;
     }
 
-    .nav-button:hover {
+    .nav-button:hover,
+    .nav-button.active {
         cursor: pointer;
         padding: 0;
         background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
@@ -174,14 +174,6 @@
         transition-duration: 1000ms;
     }
 
-    .nav-button:active {
-        cursor: pointer;
-        padding: 0;
-        background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
-        font-weight: 700;
-        color: #ffffff;
-        transition-duration: 1000ms;
-    }
 }
 
 
