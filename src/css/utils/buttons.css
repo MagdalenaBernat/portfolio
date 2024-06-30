@@ -17,8 +17,7 @@
     transition-duration: 1000ms;
 }
 
-.button:hover,
-.nav-button.active {
+.button:hover{
     cursor: pointer;
     padding: 0;
     /* background-color: var(--baner-color5); */
