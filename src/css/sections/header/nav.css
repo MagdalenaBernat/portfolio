@@ -1,7 +1,7 @@
 .nav-container {
     position: sticky;
     z-index: 1000;
-    top: 0px;
+    top: 0;
     margin: 0;
     width: 100%;
     height: 14vh;
@@ -137,6 +137,16 @@
         transition-duration: 1000ms;
         color: var(--brand-color);
     }
+
+    .nav-button.active {
+        cursor: pointer;
+        padding: 0;
+        background-image: linear-gradient(#D4A28F, #946C66, #5F3524);
+        font-weight: 700;
+        color: #ffffff;
+        transition-duration: 1000ms;
+    }
+
 }
 
 @media (min-width: 768px) {
