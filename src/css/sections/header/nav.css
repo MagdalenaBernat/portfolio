@@ -167,7 +167,7 @@
     }
 
     .nav-button {
-        width: 55px;
+        width: 65px;
         height: 55px;
         padding: 0;
         clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
@@ -226,14 +226,13 @@
     }
 
     #nav-buttons {
-        width: 30vw;
+        /* width: 30vw; */
     }
 
     .nav-button {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
         font-size: 18px;
-        margin-right: 10px;
     }
 
 }
