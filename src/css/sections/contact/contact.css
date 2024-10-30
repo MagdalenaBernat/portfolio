@@ -12,6 +12,7 @@
     margin-left: 30px;
     font-weight: 700;
     font-size: 16px;
+    color: var(--baner-color6);
 }
 
 .contact-headline {
@@ -25,10 +26,19 @@
 
 .contact-value {
     font-weight: 500;
+  color: var(--hover-color);
 }
 
 .contact-img {
     width: 200px;
+}
+
+.let {
+  color: var(--accent-color);
+}
+
+.contactMe {
+  color: var(--hover-color);
 }
 
 

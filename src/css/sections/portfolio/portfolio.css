@@ -1,7 +1,7 @@
 #portfolio {
     display: block;
     margin-top: 50px;
-    max-width: 90vw;
+    /* max-width: 90vw; */
 }
 
 .portfolio {
@@ -94,8 +94,8 @@
 @media (min-width: 768px) and (max-width: 1199px) {
 
     .portfolio-container {
-        /* max-width: 85%; 
-        margin: 40px; */
+        max-width: 85%; 
+        margin: 40px;
     }
 
     .portfolio-content {
