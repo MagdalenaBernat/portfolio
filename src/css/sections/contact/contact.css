@@ -26,11 +26,15 @@
 
 .contact-value {
     font-weight: 500;
-  color: var(--hover-color);
+    color: var(--hover-color);
 }
 
 .contact-img {
     width: 200px;
+}
+
+.contact-container {
+    margin-left: -10px;
 }
 
 .let {
@@ -41,6 +45,9 @@
   color: var(--hover-color);
 }
 
+.email {
+    font-size: 14px;
+}
 
 @media (min-width: 768px) and (max-width: 1199px) {
     
