@@ -22,7 +22,7 @@
     grid-template-rows: minmax(100px, auto);
     /* margin: 40px; */
     margin-top: 20px;
-    margin-left: 10vw;
+    margin-left: 8vw;
     grid-auto-flow: dense;
     grid-gap: 10px;
     filter: drop-shadow(0 0 0.75rem var(--shadow-color));
