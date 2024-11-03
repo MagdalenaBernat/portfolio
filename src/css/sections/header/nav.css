@@ -37,7 +37,7 @@
         --foreground: var(--text-color);
         --background: var(--brand-color);
         --hamburger-margin: 20px;
-        --hamburger-animation-timing: 400ms ease-in-out;
+        --hamburger-animation-timing: 800ms ease-in-out;
         --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
     }
 
@@ -106,8 +106,9 @@
 
     .sidebar {
         transition: translate var(--hamburger-animation-timing);
-            translate: -300vw;
+        translate: -300vw;
         margin-top: 30vh;
+        margin-right: 0;
         /* background-color: rgba(148, 108, 102, 0.3); */
         background-color: var(--baner-color4);
         width: 100%;
@@ -127,10 +128,10 @@
         margin: 5px;
         background-color: var(--content-background-color);
         border: 0;
-        width: 150px;
+        width: 120px;
         color: var(--baner-color6);
         font-weight: 700;
-        transition-duration: 1000ms;
+        transition-duration: 2000ms;
     }
 
     .nav-button:hover {

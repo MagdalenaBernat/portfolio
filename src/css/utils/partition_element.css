@@ -1,4 +1,11 @@
 .partition-element {
     width: 45%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
+
+@media (max-width: 767px) {
+    .partition-element {
+        margin-bottom: 10px;
+    }
+}
+

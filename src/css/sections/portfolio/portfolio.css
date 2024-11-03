@@ -93,6 +93,13 @@
 
 .comment {
     color:  rgba(148, 108, 102, 0.7);
+    margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+    .comment {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
