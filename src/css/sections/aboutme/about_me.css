@@ -85,6 +85,11 @@
     }
 }
 
+@media (max-width: 767px) {
+    #aboutme h3 {
+            font-size: 22px;
+    }
+}
 
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -123,6 +128,7 @@
     #aboutme-photo {
         width: 40vw;
     }
+
 }
 
 @media (min-width: 1700px) {
