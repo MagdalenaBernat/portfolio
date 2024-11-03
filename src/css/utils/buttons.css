@@ -31,8 +31,9 @@
     width: 30px;
     height: 30px;
     position: fixed;
-    right: 10px;
+    /* right: 10px; */
     bottom: 10px;
+    left: 90%; 
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -53,7 +54,6 @@
     #go-up-btn {
         width: 50px;
         height: 50px;
-        right: 22px;
-        bottom: 22px;
+        left: 95%;
     }
 }
