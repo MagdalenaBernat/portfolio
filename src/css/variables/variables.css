@@ -1,19 +1,21 @@
 :root {
+  --main-font: 'Montserrat', sans-serif;
+  --accent-font: 'Cormorant Garamond', serif;
+  --text-color: #000000;
+  --baner-color6: #5F3524;
+
   --brand-color: #EEE4E1;
   --background-color: #EEE4E1;
   --content-background-color: #dec9c3;
   --hover-color: #944e63;
   --accent-color: #946C66;
-  --text-color: #000000;
-  --main-font: 'Montserrat', sans-serif;
-  --accent-font: 'Cormorant Garamond', serif;
   --baner-color1: #D7B6A4;
   --baner-color2: #D9AC94;
   --baner-color3: #D4A28F;
   --baner-color4: #946C66;
   --baner-color4-rgba: rgba(148, 108, 102, 0.9);
   --baner-color5: #816463;
-  --baner-color6: #5F3524;
+
   --shadow-color: rgb(131, 104, 100);
   --button-color: #946c66;
   --mouse-color: #A25F5F; 
