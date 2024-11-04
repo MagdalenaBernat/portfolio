@@ -76,7 +76,7 @@
 
     .off-screen-menu {
         background-color: var(--baner-color4);
-        height: 100vh;
+        height: 150vh;
         width: 100%;
         max-width: 220px;
         position: fixed;
@@ -93,6 +93,7 @@
 
     .off-screen-menu.active {
         right: 0;
+        top: -240px;
     }
 
     .nav-button {
