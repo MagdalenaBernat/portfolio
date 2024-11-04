@@ -32,14 +32,45 @@
     />
     <script src="./src/js/menu_on_scroll.js" defer></script>
     <script src="./src/js/aboutme_content.js" defer></script>
+    <script src="./src/js/hamburger_menu.js" defer></script>    
     <script src="./src/js/nav_button_active.js" defer></script>
     <script src="./src/js/scrollbar.js" defer></script>
     <script src="./src/js/scrollToElement.js" defer></script>
+
   </head>
   <body>
     <!-- <div id="progressbar"></div> -->
     <header class="nav-container" id="home">
+
       <nav class="nav" id="nav">
+          <img src="src/images/logo/M (10)2.png" alt="logo" id="logo" />
+
+          <div class="off-screen-menu" >
+
+              <!-- <li>About me</li>
+              <li>Portfolio</li>
+              <li>Contact</li>
+              <li>Certificate</li>
+              <li>CV</li> -->
+              <a href="#aboutme"><button type="button" class="nav-button">About me</button></a>
+              <a href="#portfolio"><button type="button" class="nav-button">Portfolio</button></a>
+              <a href="#contact"><button type="button" class="nav-button">Contact</button></a>
+              <a href="./MagdalenaBernatFullstackCertificate.pdf" target="_blank"><button type="button" class="nav-button links">Certificate</button></a>
+              <a href="./CV Magdalena Bernat.pdf" target="_blank"><button type="button" class="nav-button">CV</button></a>
+
+          </div>
+
+          <div class="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+
+      </nav>
+
+
+
+      <!-- <nav class="nav" id="nav">
         <img src="src/images/logo/M (10)2.png" alt="logo" id="logo" />
 
         <label class="hamburger-menu">
@@ -52,7 +83,7 @@
           <a href="./MagdalenaBernatFullstackCertificate.pdf" target="_blank"><button type="button" class="nav-button links">Certificate</button></a>
           <a href="./CV Magdalena Bernat.pdf" target="_blank"><button type="button" class="nav-button">CV</button></a>
         </aside>
-      </nav>
+      </nav> -->
     </header>
     
     <main>
@@ -296,7 +327,7 @@
                 <p></p>
               </div>
             </div>
-            <div class="box">
+            <!-- <div class="box">
               <div class="content">
                 <h3> &lt; Tablet View &gt; </h3>
                 <div class="portfolio-tablet-view">
@@ -310,7 +341,7 @@
                 <h3> &lt; Desktop View &gt; </h3>
                 <img src="" alt="mobile view"/>
               </div>
-            </div>
+            </div> -->
           </div>
           <!-- End of the first project -->
 
