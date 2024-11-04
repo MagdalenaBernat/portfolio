@@ -6,10 +6,6 @@
     max-width: 80%;
 }
 
-.contact-container {
-    margin-left: 20px;
-}
-
 .contact {
     display: block;
     margin: 10px;
@@ -53,6 +49,14 @@
     font-size: 14px;
 }
 
+
+@media (max-width: 767px) {
+    
+    .contact-container {
+        margin-left: 20px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
     
     .contact {
@@ -67,8 +71,14 @@
         justify-content: center;
         align-items: center;
     }
+
     .contact-img {
         margin-left: 100px;
         margin-bottom: 40px;
     }
+
+    .email {
+        font-size: 16px;
+    }
+
 }
