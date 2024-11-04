@@ -135,8 +135,12 @@
         border: 1px solid var(--content-background-color);
     }
 
-    .links {
-        margin-top: 20px;
+    .link-cert {
+        margin-top: 70px;
+    } 
+
+    .link-cv {
+        margin-top: -20px;
     }
 
     .nav-cv-button.active {
