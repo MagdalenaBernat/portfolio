@@ -21,3 +21,21 @@
   padding: 25px;
 }
 
+
+@media (max-width: 767px) {
+
+  .footer-content {
+    display: block;
+    font-size: 14px;
+  }
+
+  .separator {
+    opacity: 0;
+  }
+
+  .made-by {
+    font-weight: 600;
+  }
+}
+
+
